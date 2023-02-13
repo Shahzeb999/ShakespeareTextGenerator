@@ -14,7 +14,7 @@ with open('max_sequence_len.pkl', 'rb') as f:
     max_sequence_len = pickle.load(f)
 
 
-next_words = 100
+next_words = 20
 
 st.title("Shakespeare Style Text Generator")
 
